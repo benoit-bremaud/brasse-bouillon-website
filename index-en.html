@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brasse-Bouillon - Bientôt disponible !</title>
+    <title>Brasse-Bouillon - Coming Soon!</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVCT6NGFVG"></script>
     <script>
@@ -22,12 +22,12 @@
             justify-content: center;
             flex-direction: column;
             min-height: 100vh;
-            margin: 20px;
+            margin: 0;
             padding: 0 20px;
             text-align: center;
         }
         .container {
-            max-width: 800px;
+            max-width: 700px;
         }
         img.logo {
             width: 200px;
@@ -54,6 +54,7 @@
             flex-direction: column;
             gap: 10px;
             width: 100%;
+            max-width: 700px;
             align-self: center;
         }
         input, textarea {
@@ -102,31 +103,31 @@
         <a href="index.html">🇫🇷</a> | <a href="index-en.html">🇬🇧</a>
     </div>
     <div class="container">
-        <img class="logo" src="logo.png" alt="Logo Brasse-Bouillon">
+        <img class="logo" src="logo.png" alt="Brasse-Bouillon Logo">
         <h1>Brasse-Bouillon</h1>
         <p>
-            Une application mobile conçue pour les brasseurs amateurs passionnés, débutants ou confirmés. Gère, optimise, archive et partage toutes tes recettes de brassage, en toute simplicité 📱🍺
+            A mobile app designed for passionate homebrewers — whether you're a beginner or an expert. Manage, optimize, archive, and share your recipes with ease 📱🍺
         </p>
 
-        <h2>À quoi servira Brasse-Bouillon ?</h2>
+        <h2>📲 What will Brasse-Bouillon do?</h2>
         <p>
-            ✅ Créer et gérer ses recettes<br>
-            ✅ Calculer IBU, ABV, rendement<br>
-            ✅ Planifier ses brassins<br>
-            ✅ Sauvegarder son historique<br>
-            ✅ Partager ses créations avec la communauté
+            ✅ Create and manage brewing recipes<br>
+            ✅ Calculate IBU, ABV, yield<br>
+            ✅ Plan your brewing sessions<br>
+            ✅ Keep brewing history<br>
+            ✅ Share your creations with the community
         </p>
 
-        <h2>💬 Tu veux participer au projet ?</h2>
+        <h2>💬 Want to contribute?</h2>
         <p>
-            L'application est en cours de conception. <br>
-            Et si tu nous aidais à construire la meilleure expérience possible ?
+            The app is under active development. <br>
+            Help us build the best experience by sharing your needs and ideas!
         </p>
 
-        <button onclick="toggleForm()" style="margin-top: 10px; padding: 10px 20px; font-size: 1em; background-color: #d35400; color: white; border: none; border-radius: 4px; cursor: pointer;">Répondre au questionnaire</button>
+        <button onclick="toggleForm()" style="margin-top: 10px; padding: 10px 20px; font-size: 1em; background-color: #d35400; color: white; border: none; border-radius: 4px; cursor: pointer;">Answer the questionnaire</button>
 
         <div class="questionnaire" id="questionnaireBlock" style="display:none; opacity:0; margin-top: 20px; background: #fff8f2; padding: 20px; border-radius: 8px; border: 1px solid #f0e0d0;">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3-afLtXWuF31J-diG8iNRgKiF90AgYe4tjp9NcGqz003T7g/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" style="border: none;">Chargement…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScMcXYshLn-D1H_piEspHuU8ru5s3ZkyeIZWNC5cU--ZzI1jg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" style="border: none;">Loading…</iframe>
         </div>
 
         <script>
@@ -149,15 +150,15 @@
         }
         </script>
 
-        <h2>📬 Contacte-nous directement</h2>
+        <h2>📬 Contact us directly</h2>
         <form action="https://formspree.io/f/mqaqqvab" method="POST">
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" placeholder="Message" required></textarea>
-            <button type="submit">Envoyer</button>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
         </form>
 
         <div class="footer">
-            Reste connecté(e) ! Tu peux aussi nous écrire à : contact@brasse-bouillon.com
+            Stay connected! You can also email us at: contact@brasse-bouillon.com
         </div>
         <div class="badge">
             Made with ❤️ by <a href="https://www.linkedin.com/in/benoit-bremaud" target="_blank">Brasse-Bouillon</a>
